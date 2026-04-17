@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "strict": false,
+    "jsx": "preserve",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "declaration": true,
+    "declarationDir": "./dist",
+    "emitDeclarationOnly": true,
+    "skipLibCheck": true,
+    "lib": ["ES2020", "DOM"],
+    "outDir": "./dist"
+  },
+  "include": [
+    "src/lib/**/*.ts",
+    "src/lib/**/*.vue",
+    "src/components/SampleReportTable/**/*.ts",
+    "src/components/SampleReportTable/**/*.vue"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "src/views",
+    "src/mock",
+    "src/main.ts"
+  ]
+}

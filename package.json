@@ -1,0 +1,50 @@
+{
+  "name": "vue-sample-report-table",
+  "version": "1.0.0",
+  "description": "Vue 3 通用报表查询组件 — 动态表单 + 动态表格 + 分页 + 导出，无第三方 UI 依赖",
+  "author": "leoxia",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "vue",
+    "vue3",
+    "table",
+    "report",
+    "datatable",
+    "pagination",
+    "export",
+    "excel",
+    "form",
+    "dynamic-table",
+    "scrollable-table"
+  ],
+  "main": "./dist/vue-sample-report-table.cjs.js",
+  "module": "./dist/vue-sample-report-table.esm.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "vite --config vite.config.js",
+    "build": "vite build --config vite.config.library.js",
+    "build:demo": "vite build",
+    "prepublishOnly": "npm run build",
+    "preview": "vite preview"
+  },
+  "peerDependencies": {
+    "vue": "^3.2.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.59.1",
+    "@vitejs/plugin-vue": "^1.6.0",
+    "@vue/compiler-sfc": "^3.2.6",
+    "playwright": "^1.59.1",
+    "typescript": "^5.9.3",
+    "vite": "^2.5.2",
+    "vue": "^3.2.8",
+    "vue-tsc": "^3.2.6"
+  }
+}

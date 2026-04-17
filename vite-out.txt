@@ -1,0 +1,19 @@
+Port 3000 is in use, trying another one...
+Port 3001 is in use, trying another one...
+Port 3002 is in use, trying another one...
+Port 3003 is in use, trying another one...
+Port 3004 is in use, trying another one...
+
+  vite v2.5.3 dev server running at:
+
+  > Local: http://localhost:3005/
+  > Network: use `--host` to expose
+
+  ready in 1364ms.
+
+17:07:08 [vite] hmr update /src/components/SampleReportTable/index.vue
+17:07:34 [vite] hmr update /src/components/SampleReportTable/index.vue (x2)
+17:07:51 [vite] hmr update /src/components/SampleReportTable/index.vue (x3)
+17:08:26 [vite] hmr update /src/components/SampleReportTable/index.vue?vue&type=style&index=0&scoped=true&lang.css
+17:10:51 [vite] hmr update /src/views/ReportDemo.vue?vue&type=style&index=0&scoped=true&lang.css
+17:11:07 [vite] hmr update /src/components/SampleReportTable/index.vue?vue&type=style&index=0&scoped=true&lang.css
